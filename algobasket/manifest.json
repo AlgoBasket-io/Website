@@ -1,0 +1,13 @@
+{
+    "name":"Algo Basket",
+    "start_url":"/",
+    "short_name":"AlgoB",
+    "theme_color":"#5B00A",
+    "background_color":"#4B000A",
+    "display":"standalone",
+    "icons":[{
+        "size":16,
+        "type":"image/svg+xml",
+        "url":"./src/assets/img/logo.svg"
+    }]
+}
