@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* variables  */
+
+:root {
+  --dark:#18082C;
+  --light:#F7931A;
+  --text: rgb(42, 42, 42);
+
+}
+/* import all the fonts  */
+
+@font-face {
+  font-family: Euclid;
+  src: url(../src/assets/fonts/Euclid/Euclid\ Circular\ A\ Medium.ttf);
+}
+
+
+/* reusables  */
+
+.btn-light {
+  background-color: var(--light);
+  padding: 1em;
+}
+
+.btn-dark {
+  background-color: var(--dark);
+  padding: 1em 2em;
+}
+
+.text {
+  font-family: 'Euclid';
+  font-size: 1.2em;
+  color: var(--text);
+}
